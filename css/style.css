@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.title{
+    padding: 40px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    color: #fff;
+    margin: 0 auto;
+}
+.bground{
+    height: 100vh; /*100% экрана*/
+    background: linear-gradient(to right, #5a1930, #bbb918);
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: #607d8b;
+    border: none;
+    color: #ffffff;
+}
+.textview{
+    width: 208px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: #607d8b;
+}
